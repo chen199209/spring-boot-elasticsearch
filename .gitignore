@@ -1,0 +1,5 @@
+elasticsearch/.mvn/
+elasticsearch/src/test/java/com/example/elasticsearch/ElasticsearchApplicationTests.java
+elasticsearch/mvnw
+elasticsearch/mvnw.cmd
+elasticsearch/.gitignore

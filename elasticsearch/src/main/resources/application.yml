@@ -1,0 +1,10 @@
+spring:
+  data:
+    elasticsearch: #ElasticsearchProperties
+      cluster-name: es-5.6.8-docu #默认即为elasticsearch
+      cluster-nodes: 127.0.0.1:9300 #配置es节点信息，逗号分隔，如果没有指定，则启动ClientNode
+
+server:
+  port: 8080
+  servlet:
+    context-path: /es
